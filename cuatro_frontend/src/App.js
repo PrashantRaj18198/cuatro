@@ -19,6 +19,7 @@ import LoginFail from './components/pages/LoginFail';
 import SignUpFail from './components/pages/SignUpFail';
 import LoggedIn from './components/pages/LoggedIn';
 
+import MusicPlayer from './components/pages/MusicPlayer';
 function App() {
   return (
        
@@ -30,6 +31,7 @@ function App() {
               <Route exact path="/login-fail" component={LoginFail} />
               <Route exact path="/signup-fail" component={SignUpFail} />
               <Route exact path="/loggedin" component={LoggedIn} />
+              <Route exact path='/musicplayer' component={MusicPlayer} />
             </Switch>
             </BrowserRouter>
           </div>

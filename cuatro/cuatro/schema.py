@@ -1,8 +1,9 @@
 import graphene
 import graphql_jwt
 import authentication.schema
+import music_library.schema
 
-class Query(authentication.schema.Query, graphene.ObjectType):
+class Query(authentication.schema.Query, music_library.schema.Query, graphene.ObjectType):
     pass
 
 
