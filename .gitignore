@@ -2,8 +2,9 @@ cuatro_frontend/node_modules/*
 */migrations/*
 */__pycache__/*
 .installed.cfg
-bin
+bin/*
 lib/*
 lib64/*
 *.pyo
 *.pyc
+
