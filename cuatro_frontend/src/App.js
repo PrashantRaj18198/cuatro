@@ -18,8 +18,10 @@ import { Provider } from './context';
 import LoginFail from './components/pages/LoginFail';
 import SignUpFail from './components/pages/SignUpFail';
 import LoggedIn from './components/pages/LoggedIn';
-
+import SubscriptionPlans from './components/pages/SubcriptionPlans';
 import MusicPlayer from './components/pages/MusicPlayer';
+import Payment from './components/pages/Payment';
+
 function App() {
   return (
        
@@ -32,6 +34,8 @@ function App() {
               <Route exact path="/signup-fail" component={SignUpFail} />
               <Route exact path="/loggedin" component={LoggedIn} />
               <Route exact path='/musicplayer' component={MusicPlayer} />
+              <Route exact path='/subscriptionplans' component={SubscriptionPlans} />
+              <Route exact path='/subscriptionplans/payment' component={Payment} />
             </Switch>
             </BrowserRouter>
           </div>
