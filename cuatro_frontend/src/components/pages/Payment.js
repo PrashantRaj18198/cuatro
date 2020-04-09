@@ -39,9 +39,9 @@ const Payment = (props) => {
     }, []);
 
     return (
-        <>
-            <button onClick={openPayModal}>Pay with Razorpay</button>
-        </>
+        <div>
+            <button className="btn btn-custom " style={{backgroundColor:"#34495e"}} onClick={openPayModal}>Pay with Razorpay</button>
+        </div>
     );
 };
 
