@@ -16,7 +16,6 @@ def app_create():
 def app_charge():
     amount = 5100
     payment_id = request.form['razorpay_payment_id']
-    razorpay_client.order.create
     print(request.form)
     try:
         razorpay_client.payment.capture(payment_id, amount)
